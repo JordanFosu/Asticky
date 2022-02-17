@@ -1,0 +1,55 @@
+
+body{  
+
+width: 100vw;
+height:100vh;
+margin:0;
+font-family:'Monserrat';
+color:black;
+line-height:1.5;
+text-align: center;
+
+
+
+
+
+     }
+
+
+.wrapper{
+
+margin:0 auto;
+
+width: 500px;
+
+
+
+text-align:center;
+
+}
+
+
+summary{
+
+	font-size:22px;
+	font-weight:600;
+	background-color:rgb(43,43,43);
+	color:white;
+	padding:15px;
+	margin-bottom:15px;
+	border-radius:5px;
+	text-align:center;
+	transition: all 0.5s ease-in-out;
+	cursor:pointer;
+
+
+	}
+
+
+	details[open] summary{ 
+
+
+
+margin-bottom:30px;
+
+	}
